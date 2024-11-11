@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    background-image: url('https://shorturl.at/Coy72');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.879);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.8rem;
+    width: 70%;
+    text-align: center;
+    border-radius: 60px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.span1{
+    color: red;
+    font-weight: bolder;
+}
+
+.span2{
+    font-weight: lighter;
+}
+
+.nav-links{
+    font-size: medium;
+    list-style: none;
+    display: flex;
+    gap: 0.91rem;
+    padding-left: 4dvh;
+    align-items: center;
+}
+
+.nav-links li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica;
+}
+
+.grab{
+    background-color: rgb(104, 104, 104);
+    padding: 0.7rem;
+    border-radius: 25px;
+    border: solid 2px;
+}
+
+.logo{
+    font-size: 2.5rem;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.logo sup{
+    font-size:x-large;
+    color: red;
+}
+
+.header{
+    padding: 0.9rem;
+    text-align: center;
+
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.82);
+    color: white;
+    padding: 0.7rem;
+    justify-content: space-around;
+    width: 25%;
+    border-radius: 30px;
+    border-color: transparent;
+    margin: 0 auto;
+}
+
+.section{
+    padding: 2rem;
+    background-color: rgb(218, 213, 213);
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 75%; 
+    margin: 0 auto;
+    max-width: 1700px;
+    box-shadow: 100px;
+    border-radius: 5px;
+}
+
+.section h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Arial black';
+    max-width: 600px;
+    margin-left: 30px;
+}
+
+.section p{
+    font-size: 21px;
+    max-width: 600;
+    margin: 0 auto;
+    font-family: 'Arial';
+    color: rgb(41, 41, 41);
+    max-width: 1000px;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    padding-bottom: 45px;
+}
+
+.footer-content{
+    font-family: 'Helvetica' ;
+    color: white;
+    margin-left: 230px;
+    padding-top: 25px;
+}
+
+.footer p{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.span3{
+    color: red;
+    font-weight: bolder;
+}
+
+.span4{
+    font-weight: lighter;
+}
+
+.footer sup{
+    color: red;
+    font-size:30px;
+}
+
+.footer-content h3{
+    font-weight: bold;
+    margin-top: 25px;
+    font-family: 'Helvetica';
+}
+
+.footer-content ul{
+    margin-top: 15px;
+    margin-left: 37px;
+    font-family: 'Helvetica';
+    padding-bottom: 30px;
+}
+
+.footer-content li{
+    margin-bottom: 10px;
+    font-family: 'Helvetica';
+}
+
+.footer-sm{
+    margin-left: 250px;
+    margin-right: 50px;
+    align-items: center;
+    margin-top: 40px;
+    padding-bottom: 0px;
+}
+
+.news{ /*why not footer-sm news{.. */
+    color: white;
+    font-family: 'Arial';
+    font-size: 2.2rem;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    
+}
+
+.footer-sm h4{
+    color: white;
+    padding-top: 30px;
+}
+
+.email{       
+    padding: 0.5rem;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 16px;
+    font-size: large;
+    font-family: 'Arial';
+    color: rgb(40, 39, 39);
+}
+
+.button{
+    padding: 0.4rem;
+    border-radius: 25px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(242, 0, 0, 0.929);
+    color: rgb(28, 28, 28);
+}
+
+.footer-smdet{
+    display: flex;
+    gap: 30px;
+    height: 100px;
+    width: 10px;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+
+.marquees{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    font-size: larger;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+
+    
